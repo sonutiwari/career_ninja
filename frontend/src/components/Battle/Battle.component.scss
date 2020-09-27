@@ -1,0 +1,33 @@
+.white-text {
+  color: rgba(255, 255, 255, 0.75);
+}
+.left {
+  float: left;
+  background-image: linear-gradient(
+    to right,
+    rgb(200, 100, 100),
+    rgb(255, 0, 0)
+  );
+  padding: 10px;
+}
+
+.right {
+  float: right;
+  background-image: linear-gradient(
+    to right,
+    rgb(100, 200, 100),
+    rgb(0, 255, 0)
+  );
+  padding: 10px;
+}
+
+.text-vs {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  z-index: 10;
+  font-size: 2em;
+  font-weight: 800;
+  overflow: visible;
+  transform: translate(0, -50%);
+}
